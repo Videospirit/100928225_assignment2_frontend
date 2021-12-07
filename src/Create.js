@@ -82,7 +82,7 @@ export default class Create extends Component {
                     <br/>
 
                     <label>Email Address</label>
-                    <input type="text" required name="emailID" value={this.state.emailId} onChange={this.readData}/>
+                    <input type="text" required name="emailId" value={this.state.emailId} onChange={this.readData}/>
                     <br/>
 
                     <input type="submit" value="Submit"/>
